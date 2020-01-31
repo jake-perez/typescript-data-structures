@@ -1,9 +1,9 @@
-import { add } from '..';
+import DataStructures from '..';
 
-describe('Test Add Function', () => {
-  it('should add two numbers', () => {
-    const result: number = add(2, 4);
-
-    expect(result).toEqual(6);
+describe('Data Structures', () => {
+  it('should expose all data structures', () => {
+    expect(Object.keys(DataStructures).sort()).toEqual(
+      ['Node', 'StackLL'].sort(),
+    );
   });
 });

@@ -1,1 +1,9 @@
-export const add = (x: number, y: number): number => x + y;
+import Node from './Node';
+import StackLL from './Stacks/StackLL';
+
+const DataStructures = {
+  Node,
+  StackLL,
+};
+
+export default DataStructures;
