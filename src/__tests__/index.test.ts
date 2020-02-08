@@ -1,4 +1,4 @@
-import DataStructures from '..';
+import DataStructures from '../Data-Structures';
 
 describe('Data Structures', () => {
   it('should expose all data structures', () => {
